@@ -1,4 +1,3 @@
-
 let db;
 
 const request = indexedDB.open("budget_tracker", 1);
@@ -45,7 +44,7 @@ function uploadTransaction() {
   const transaction = db.transaction(["new_transaction"], "readwrite");
 
   
-  const transactionObjectStore = transaction.objectStore("new_pizza");
+  const transactionObjectStore = transaction.objectStore("new_transaction");
 
   
   const getAll = transactionObjectStore.getAll();

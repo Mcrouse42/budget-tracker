@@ -22,6 +22,7 @@ self.addEventListener("install", function (e) {
   );
 });
 
+// try to figure out ? 
 self.addEventListener("fetch", (event) => {
   event.respondWith(
     caches.match(event.request).then((response) => {
@@ -31,7 +32,7 @@ self.addEventListener("fetch", (event) => {
 });
 
 
-
+// is this working??
 self.addEventListener("activate", function (e) {
   e.waitUntil(
     caches.keys().then(function (keyList) {

@@ -16,4 +16,4 @@ https://rhubarb-crisp-10852.herokuapp.com/
 
 ## Screenshot:
 
-<img src="https://github.com/Mcrouse42/code-quiz/blob/master/assets/screenshot/Screen%20Shot%202021-03-26%20at%202.00.15%20PM.png" />
+<img src="https://github.com/Mcrouse42/budget-tracker/blob/master/screenshot/budget%20tracker%20screen%20shot.png" />
